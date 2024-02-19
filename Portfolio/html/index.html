@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirko Fasone</title>
+<!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--Link css-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="first-content" id="1">
+        <header>
+            <div class="logo">
+                <img src="../src/logo.png" alt="LOGO">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#1">Chi sono</a></li>
+                    <li><a href="#2">Progetti</a></li>
+                    <li><a href="#3">Skills</a></li>
+                    <li><a href="#4">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="info">
+            <div class="info-pic">
+                <img src="../src/Me.png" alt="">
+            </div>
+            <div class="info-txt">
+                <h1>Mirko Fasone</h1>
+                <h3>Junior Java Developer</h3>
+                <p>Mi chiamo Mirko e sono un appassionato sviluppatore Java in cerca di nuove sfide e opportunità. Durante il mio percorso formativo ho lavorato su diversi progetti che mi hanno permesso di applicare le mie conoscenze teoriche in contesti pratici. Ho affrontato sfide stimolanti, imparato a risolvere problemi complessi e acquisito competene fondamentali nel campo dello sviluppo Java.</p>
+                <button><a href="#4">Contattami</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <h3 id="2">I miei progetti:</h3>
+        <div class="container-1">
+
+            <div class="card">
+                <img src="../src/BiologikaLogo.jpeg"
+                    class="card-img-top" alt="Biologika">
+                <div class="video-overlay">
+                    <video id="video-modal"
+                        src="../src/Biologika.mp4"autoplay loop muted>
+                    </video>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Biologika (attiva il video)</p>
+                </div>
+            </div>  
+            
+            <div class="testo">
+                <h2>Biologika (Generation-Soft Skills)</h2>
+                <p>Biologika è stato il primo progetto assegnatoci dai nostri professori di soft skills durante il corso di Generation. Il mio team ed io abbiamo subito pensato di utilizzare i linguaggi di FrontEnd per esercitarci anche se non era richiesto dal progetto. Mi sono principalmente occupato della creazione dei loghi, della scelta di video, font e lo spot principale del nostro sito:"A forma di Biologika". Avevamo il compito di creare un sito web per dei giovani agricoltori che volevano iniziare a vendere i loro prodotti online ma anche incentivare i più giovani a immergersi nel mondo BIO e della natura attraverso degli eventi che avremmo sponsorizzato sul sito.   </p>
+            </div>
+        </div>
+
+        <div class="container-2">
+            <div class="card">
+                <img src="../src/AdnexioLogo.jpeg"
+                    class="card-img-top" alt="Biologika">
+                <div class="video-overlay">
+                    <video id="video-modal"
+                        src="../src/Adnexio.mp4"autoplay loop muted>
+                    </video>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Adnexio (attiva il video)</p>
+                </div>
+            </div>
+
+            <div class="testo">
+                <h2>Adnexio (Generation-Progetto Finale)</h2>
+                <p>Questa è stata la prova finale dove abbiamo unito tutte le conoscenze di Java, Database, Hybernate, JPA, JS, HTML, CSS che abbiamo affrontato durante il corso di Generation. I primi giorni abbiamo creato il modello ER del nostro progetto e abbiamo iniziato a completare il primo giro tra Model, Dao, Servlet e BusinessLogic, Jsp e dato il poco tempo io ho iniziato a spostarmi nel lato FrontEnd e modificare tutte le Jsp. Sono altamente soddisfatto del risultato che abbiamo ottenuto anche perchè mi ha apermesso di provare cosa significa sviluppare un progetto con un team di lavoro.  </p>
+            </div>
+        </div>
+    </div>
+
+    <span class="title" id="3"><h3>Skills:</h3></span>
+    <div class="skills">
+        <div class="bk-space">
+            <img src="../src/space.png" alt="spazio">
+        </div>
+
+        <div class="cont-linguaggi">
+            <div class="bubble">
+                <img src="../src/HTML.png" alt="Html" id="h">
+                
+            </div>
+            <div class="bubble">
+                <img src="../src/CSS3.png" alt="Css" id="css">
+                
+            </div>
+            <div class="bubble">
+                <img src="../src/bootstrap-5-logo-icon.webp" alt="Bootstrap" id="b">
+                
+            </div>
+            <div class="bubble">
+                <img src="../src/JavaScript-logo.png" alt="Js" id="js">
+             
+            </div>
+            <div class="bubble">
+                <img src="../src/Java_Logo.svg.png" alt="Java" id="j">
+               
+            </div>
+            <div class="bubble">
+                <img src="../src/Database-mysql.svg.png" alt="MySql" id="ms">
+
+            </div>
+        </div>
+    </div>
+
+<span class="separatore"><h3>Thanks for scrolling!</h3></span>
+    <div class="container-3" id="4">
+        <div class="body-3">
+            <div class="link"><a href="https://www.linkedin.com/in/mirko-fasone"><ion-icon name="logo-linkedin"></ion-icon>Linkedin</a></div>
+            <div class="link"><a href="mailto:mirko.fasone98@gmail.com"><ion-icon name="mail-outline"></ion-icon>Email</a></div>
+        </div>
+
+    </div>
+<!--Script Icone-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!--Script Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
